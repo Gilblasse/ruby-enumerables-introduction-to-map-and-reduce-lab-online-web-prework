@@ -37,11 +37,15 @@ def reduce_to_all_true (array)
   array.size == truthy.size ? true : false
 end
 
+<<<<<<< HEAD
 def reduce_to_any_true (array)
   truthy = []
   array.each {|value| truthy << value if value}
   truthy.size > 0 ? true : false
 end
+=======
+
+>>>>>>> 276cea3a47a46817b77932d85480edb060cf6caa
 
 
 
